@@ -1,10 +1,122 @@
-// Write a program to display one result card of 100 students
+// Write a proga to display one result card of 100 students
 // with their name and percentage
-// Out of 100 students, 50 has subjects - Grammer and Accounts
-// and other 50 has subjects -  Grammer and Physics
+// Out of 100 students, 50 has subjects - Gamer and Accounts
+// and other 50 has subjects -  Gamer and Physics
 
 // Hint : You need to calculate percentage of 100 students having different set of subjects.
 //        You can assume their scores on their respective subjects.
 
 
 // Write your code here
+
+var arr = [{name: 'a', subject1: 90, subject2: 85},
+{name: 'a', subject1: 90, subject2: 85},
+{name: 'b', subject1: 90, subject2: 85}
+,{name: 'c', subject1: 90, subject2: 85},
+{name: 'd', subject1: 90, subject2: 85},
+{name: 'e', subject1: 90, subject2: 85},
+{name: 'f', subject1: 90, subject2: 85},
+{name: 'g', subject1: 90, subject2: 85},
+{name: 'h', subject1: 90, subject2: 85},
+{name: 'i', subject1: 90, subject2: 85},
+{name: 'j', subject1: 90, subject2: 85},
+{name: 'k', subject1: 90, subject2: 85},
+{name: 'l', subject1: 90, subject2: 85},
+{name: 'm', subject1: 90, subject2: 85},
+{name: 'n', subject1: 90, subject2: 85},
+{name: 'o', subject1: 90, subject2: 85},
+{name: 'p', subject1: 90, subject2: 85},
+{name: 'q', subject1: 90, subject2: 85},
+{name: 'r', subject1: 90, subject2: 85},
+{name: 's', subject1: 90, subject2: 85},
+{name: 't', subject1: 90, subject2: 85},
+{name: 'u', subject1: 90, subject2: 85},
+{name: 'v', subject1: 90, subject2: 85},
+{name: 'w', subject1: 90, subject2: 85},
+{name: 'x', subject1: 90, subject2: 85},
+{name: 'y', subject1: 90, subject2: 85},
+{name: 'z', subject1: 90, subject2: 85},
+{name: 'aa', subject1: 90, subject2: 85},
+{name: 'ab', subject1: 90, subject2: 85},
+{name: 'ac', subject1: 90, subject2: 85},
+{name: 'ad', subject1: 90, subject2: 85},
+{name: 'ae', subject1: 90, subject2: 85},
+{name: 'af', subject1: 90, subject2: 85},
+{name: 'ag', subject1: 90, subject2: 85},
+{name: 'ah', subject1: 90, subject2: 85},
+{name: 'ai', subject1: 90, subject2: 85},
+{name: 'aj', subject1: 90, subject2: 85},
+{name: 'ak', subject1: 90, subject2: 85},
+{name: 'al', subject1: 90, subject2: 85},
+{name: 'am', subject1: 90, subject2: 85},
+{name: 'an', subject1: 90, subject2: 85},
+{name: 'ao', subject1: 90, subject2: 85},
+{name: 'ap', subject1: 90, subject2: 85},
+{name: 'aq', subject1: 90, subject2: 85},
+{name: 'ar', subject1: 90, subject2: 85},
+{name: 'as', subject1: 90, subject2: 85},
+{name: 'at', subject1: 90, subject2: 85},
+{name: 'au', subject1: 90, subject2: 85},
+{name: 'av', subject1: 90, subject2: 85},
+{name: 'aw', subject1: 90, subject2: 85},
+{name: 'ax', subject1: 90, subject2: 85},
+{name: 'ay', subject1: 90, subject2: 85},
+{name: 'az', subject1: 90, subject2: 85},
+{name: 'ba', subject1: 90, subject2: 85},
+{name: 'ca', subject1: 90, subject2: 85},
+{name: 'da', subject1: 90, subject2: 85},
+{name: 'ea', subject1: 90, subject2: 85},
+{name: 'fa', subject1: 90, subject2: 85},
+{name: 'ga', subject1: 90, subject2: 85},
+{name: 'ha', subject1: 90, subject2: 85},
+{name: 'ia', subject1: 90, subject2: 85},
+{name: 'ja', subject1: 90, subject2: 85},
+{name: 'ka', subject1: 90, subject2: 85},
+{name: 'la', subject1: 90, subject2: 85},
+{name: 'ma', subject1: 90, subject2: 85},
+{name: 'na', subject1: 90, subject2: 85},
+{name: 'oa', subject1: 90, subject2: 85},
+{name: 'pa', subject1: 90, subject2: 85},
+{name: 'qa', subject1: 90, subject2: 85},
+{name: 'ra', subject1: 90, subject2: 85},
+{name: 'sa', subject1: 90, subject2: 85},
+{name: 'ta', subject1: 90, subject2: 85},
+{name: 'ua', subject1: 90, subject2: 85},
+{name: 'va', subject1: 90, subject2: 85},
+{name: 'wa', subject1: 90, subject2: 85},
+{name: 'xa', subject1: 90, subject2: 85},
+{name: 'ya', subject1: 90, subject2: 85},
+{name: 'za', subject1: 90, subject2: 85},
+{name: 'aaa', subject1: 90, subject2: 85},
+{name: 'aab', subject1: 90, subject2: 85},
+{name: 'aac', subject1: 90, subject2: 85},
+{name: 'aad', subject1: 90, subject2: 85},
+{name: 'aae', subject1: 90, subject2: 82},
+{name: 'aaf', subject1: 91, subject2: 85},
+{name: 'aag', subject1: 90, subject2: 85},
+{name: 'aah', subject1: 90, subject2: 85},
+{name: 'aai', subject1: 90, subject2: 85},
+{name: 'aaj', subject1: 90, subject2: 85},
+{name: 'aak', subject1: 90, subject2: 85},
+{name: 'aal', subject1: 90, subject2: 85},
+{name: 'aam', subject1: 90, subject2: 85},
+{name: 'aan', subject1: 90, subject2: 85},
+{name: 'aao', subject1: 90, subject2: 85},
+{name: 'aap', subject1: 90, subject2: 85},
+{name: 'aaq', subject1: 90, subject2: 85},
+{name: 'aar', subject1: 90, subject2: 85},
+{name: 'aas', subject1: 90, subject2: 85},
+{name: 'aat', subject1: 92, subject2: 85},
+{name: 'aau', subject1: 90, subject2: 85},
+{name: 'aav', subject1: 91, subject2: 85},
+{name: 'aaw', subject1: 93, subject2: 86}]
+
+var obj = {};
+for(var i=0;i<arr.length;i++)
+{
+    var keys = arr[i].name;
+    var value = (arr[i].subject1+arr[i].subject2)/2;
+    obj[keys] = {"percentage": value};
+    
+}
+console.log(obj);
